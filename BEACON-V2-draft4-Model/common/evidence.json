@@ -6,7 +6,7 @@
   "properties": {
     "evidenceCode" : {
       "description": "An ontology class that represents the evidence type",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/ontologyTerm.json",
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
       "example": {
         "id" : "ECO:0006017",
         "label" : "author statement from published clinical study used in manual assertion"
@@ -14,7 +14,7 @@
     },
     "reference" : {
       "description": "Representation of the source of the evidence",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/externalReference.json",
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/externalReference.json",
       "example": {
         "id" : "PMID:30962759",
         "label" : "Recurrent Erythema Nodosum in a Child with a SHOC2 Gene Mutation"

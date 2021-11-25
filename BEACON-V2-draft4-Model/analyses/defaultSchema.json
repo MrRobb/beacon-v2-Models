@@ -48,7 +48,7 @@
       "examples": ["GATK4.0"]
     },
     "info": {
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Info"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Info"
     }
   },
   "required": ["id", "analysisDate", "pipelineName"],

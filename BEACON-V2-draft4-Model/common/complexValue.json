@@ -17,7 +17,7 @@
       "properties" : {
         "quantityType" : {
           "description" : "OntologyClass to describe the type of the measurement",
-          "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/ontologyTerm.json",
+          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
           "example" : {
             "id": "NCIT:C25298",
             "label": "Systolic Blood Pressure"
@@ -25,7 +25,7 @@
         },
         "quantity" : {
           "description" : "Quantity denoting the outcome of the measurement",
-          "$ref" : "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/quantity.json",
+          "$ref" : "https://raw.githubusercontent.com/MrRobb/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/quantity.json",
           "example" : {
             "quentity" : {
               "unit" : {

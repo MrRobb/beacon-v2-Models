@@ -12,7 +12,7 @@
     },
     "cohortDesign": {
       "description": "Cohort type by its design. A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution. Value from Ontologized MIABIS (OMIABIS) Study design ontology term tree (OBI:0500000).",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/ontologyTerm.json",
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
       "examples": [
         { "id": "OMIABIS:0001017", "label": "case control study design" },
         { "id": "OMIABIS:0001019", "label": "longitudinal study design" },
@@ -144,40 +144,40 @@
           "description": "Geographic location(s) in cohort inclusion criteria",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/commonDefinitions.json#/definitions/GeographicLocation"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/commonDefinitions.json#/definitions/GeographicLocation"
           }
         },
         "genders": {
           "description": "Gender(s) in cohort inclusion criteria",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/commonDefinitions.json#/definitions/Sex"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/commonDefinitions.json#/definitions/Sex"
           }
         },
         "ethnicities": {
           "description": "Ethnias in cohort inclusion criteria",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/commonDefinitions.json#/definitions/Ethnicity"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/commonDefinitions.json#/definitions/Ethnicity"
           }
         },
         "diseaseConditions": {
           "description": "Diseases in cohort inclusion criteria",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/disease.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/disease.json"
           }
         },
         "phenotypicConditions": {
           "description": "Phenotypic condition(s) in cohort inclusion criteria",
           "type": "array",
           "items": {
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/phenotypicFeature.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/phenotypicFeature.json"
           }
         },
         "ageRange": {
           "description": "Individual age range in cohort inclusion criteria",
-          "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/ageRange.json"
+          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/ageRange.json"
         }
       }
     },
@@ -185,7 +185,7 @@
       "description": "Type of information. Preferably values from Genomics Cohorts Knowledge Ontology (GeCKO) or others when GeCKO is not applicable.",
       "type": "array",
       "items": {
-        "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/ontologyTerm.json"
+        "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
       },
       "examples": [
         { "id": "OGMS:0000015", "label": "clinical history" },

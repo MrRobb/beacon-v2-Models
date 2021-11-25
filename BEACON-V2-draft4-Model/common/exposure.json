@@ -6,7 +6,7 @@
   "properties": {
     "exposureCode": {
       "description": "Exposure ID. Value from Environment Exposure Ontology.",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/ontologyTerm.json",
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
       "examples": [
         { "id": "CHEBI:46661", "label": "asbestos" },
         { "id": "ENVO:21001217", "label": "X-ray radiation" }
@@ -18,7 +18,7 @@
     },
     "units": {
       "description": "Units of the exposure. Recommended from NCIT Unit of Category ontology term (NCIT:C42568) descendants.",
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/commonDefinitions.json#/definitions/Units"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/commonDefinitions.json#/definitions/Units"
     },
     "duration": {
       "description": "Exposure duration in ISO8601 format",
@@ -31,7 +31,7 @@
       "format": "date"
     },
     "ageAtExposure": {
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/age.json"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-v2-Models/main/BEACON-V2-draft4-Model/common/age.json"
     }
   },
   "required": ["exposureCode", "ageAtExposure", "units", "duration"],

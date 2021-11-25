@@ -38,7 +38,7 @@
       "example": "http://example.org/wiki/Main_Page"
     },
     "info": {
-      "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Info"
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Info"
     },
     "dataUseConditions": {
       "$ref": "#/definitions/DataUseConditions"
@@ -69,7 +69,7 @@
           "description": "TBD"
         },
         {
-          "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/ontologyTerm.json"
+          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
         },
         {
           "type": "object",
@@ -84,7 +84,7 @@
               "items": {
                 "allOf": [
                   {
-                    "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/ontologyTerm.json"
+                    "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
                   },
                   {
                     "example": [

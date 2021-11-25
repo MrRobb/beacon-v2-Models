@@ -38,7 +38,7 @@
             "$ref": "#/components/responses/CollectionsResponse"
           },
           "default":{
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconErrorResponse.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconErrorResponse.json"
           }
         }
       },
@@ -50,7 +50,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/requests/beaconRequestBody.json"
+                "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/requests/beaconRequestBody.json"
               }
             }
           },
@@ -62,7 +62,7 @@
           },
           "default": {
             "description": "An unsuccessful operation",
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconErrorResponse.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconErrorResponse.json"
           }
         }
       }
@@ -84,7 +84,7 @@
           },
           "default": {
             "description": "An unsuccessful operation",
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconErrorResponse.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconErrorResponse.json"
           }
         }
       },
@@ -96,7 +96,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/requests/beaconRequestBody.json"
+                "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/requests/beaconRequestBody.json"
               }
             }
           },
@@ -108,7 +108,7 @@
           },
           "default": {
             "description": "An unsuccessful operation",
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconErrorResponse.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconErrorResponse.json"
           }
         }
       }
@@ -132,7 +132,7 @@
           },
           "default": {
             "description": "An unsuccessful operation",
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconErrorResponse.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconErrorResponse.json"
           }
         }
       },
@@ -144,7 +144,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/requests/beaconRequestBody.json"
+                "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/requests/beaconRequestBody.json"
               }
             }
           },
@@ -156,7 +156,7 @@
           },
           "default": {
             "description": "An unsuccessful operation",
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconErrorResponse.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconErrorResponse.json"
           }
         }
       }
@@ -180,7 +180,7 @@
           },
           "default": {
             "description": "An unsuccessful operation",
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconErrorResponse.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconErrorResponse.json"
           }
         }
       },
@@ -192,7 +192,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/requests/beaconRequestBody.json"
+                "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/requests/beaconRequestBody.json"
               }
             }
           },
@@ -204,7 +204,7 @@
           },
           "default": {
             "description": "An unsuccessful operation",
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconErrorResponse.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconErrorResponse.json"
           }
         }
       }
@@ -228,7 +228,7 @@
           },
           "default": {
             "description": "An unsuccessful operation",
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconErrorResponse.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconErrorResponse.json"
           }
         }
       },
@@ -240,7 +240,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/requests/beaconRequestBody.json"
+                "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/requests/beaconRequestBody.json"
               }
             }
           },
@@ -252,7 +252,7 @@
           },
           "default": {
             "description": "An unsuccessful operation",
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconErrorResponse.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconErrorResponse.json"
           }
         }
       }
@@ -277,14 +277,14 @@
               "application/json": 
               {
                 "schema":{
-                  "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconFilteringTermsResponse.json"
+                  "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconFilteringTermsResponse.json"
                 }
               }
             }
           },
           "default": {
             "description": "An unsuccessful operation",
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconErrorResponse.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconErrorResponse.json"
           }
         }
       },
@@ -296,7 +296,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/requests/beaconRequestBody.json"
+                "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/requests/beaconRequestBody.json"
               }
             }
           },
@@ -309,14 +309,14 @@
               "application/json": 
               {
                 "schema":{
-                  "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconFilteringTermsResponse.json"
+                  "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconFilteringTermsResponse.json"
                 }
               }
             }
           },
           "default": {
             "description": "An unsuccessful operation",
-            "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconErrorResponse.json"
+            "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconErrorResponse.json"
           }
         }
       }
@@ -330,9 +330,9 @@
           "application/json": {
             "schema":{
               "oneOf": [
-                { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconBooleanResponse.json" },
-                { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconCountResponse.json" },
-                { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconResultsetsResponse.json" }
+                { "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconBooleanResponse.json" },
+                { "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconCountResponse.json" },
+                { "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconResultsetsResponse.json" }
               ]
             }
           }
@@ -344,9 +344,9 @@
           "application/json": {
             "schema":{
               "oneOf": [
-                { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconBooleanResponse.json" },
-                { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconCountResponse.json" },
-                { "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/responses/beaconCollectionsResponse.json" }
+                { "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconBooleanResponse.json" },
+                { "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconCountResponse.json" },
+                { "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/responses/beaconCollectionsResponse.json" }
               ]
             }
           }
@@ -368,14 +368,14 @@
         "name": "skip",
         "in": "query",
         "schema":{
-          "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Skip"
+          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Skip"
         }
       },
       "limit": {
         "name": "limit",
         "in": "query",
         "schema":{
-          "$ref": "https://raw.githubusercontent.com/ga4gh-beacon/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Limit"
+          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/beaconCommonComponents.json#/definitions/Limit"
         }
       },
       "entryId": {
