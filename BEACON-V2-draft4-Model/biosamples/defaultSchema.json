@@ -143,7 +143,7 @@
     "histologicalDiagnosis": {
       "allOf": [
         {
-          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
+          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
         },
         {
           "description": "Disease diagnosis that was inferred from the histological examination. RECOMMENDED.",
