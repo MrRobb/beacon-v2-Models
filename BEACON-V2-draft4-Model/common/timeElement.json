@@ -19,11 +19,17 @@
       }
     },
     "ageGroup": {
-      "description": "Indicates the age of the individual as an ontology class. Recommended from NCIT Age Group ontology term (NCIT:C20587) descendants.",
-      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
-      "examples": [
-        { "id": "NCIT:C27954", "label": "Adolescent" },
-        { "id": "NCIT:C49685", "label": "Adult 18-65 Years Old" }
+      "allOf": [
+        {
+          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
+        },
+        {
+          "description": "Indicates the age of the individual as an ontology class. Recommended from NCIT Age Group ontology term (NCIT:C20587) descendants.",
+          "examples": [
+            { "id": "NCIT:C27954", "label": "Adolescent" },
+            { "id": "NCIT:C49685", "label": "Adult 18-65 Years Old" }
+          ]
+        }
       ]
     }
   }

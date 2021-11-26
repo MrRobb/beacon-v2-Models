@@ -5,12 +5,18 @@
   "type": "object",
   "properties": {
     "assayCode": {
-      "description": "Class that describes the assay used to produce the measurement",
-      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
-      "example": {
-        "id": "LOINC:26515-7",
-        "label": "Platelets [#/volume] in Blood"
-      }
+      "allOf": [
+        {
+          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
+        },
+        {
+          "description": "Class that describes the assay used to produce the measurement",
+          "example": {
+            "id": "LOINC:26515-7",
+            "label": "Platelets [#/volume] in Blood"
+          }
+        }
+      ]
     },
     "measurementValue": {
       "description": "The result of the measurement",

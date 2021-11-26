@@ -177,16 +177,28 @@
       "type": "object",
       "properties": {
         "featureClass": {
-          "description": "Ontology term that describes the class of genomic feature affected by the variant. Values from Ensembl Glossary (ENSGLOSSARY ontology) are recommended, e.g. protein coding gene, non-coding RNA, long non-coding RNA. ",
-          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
-          "examples": [
-            { "id": "ENSGLOSSARY:0000158", "label": "5 prime UTR variant" }
+          "allOf": [
+            {
+              "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
+            },
+            {
+              "description": "Ontology term that describes the class of genomic feature affected by the variant. Values from Ensembl Glossary (ENSGLOSSARY ontology) are recommended, e.g. protein coding gene, non-coding RNA, long non-coding RNA. ",
+              "examples": [
+                { "id": "ENSGLOSSARY:0000158", "label": "5 prime UTR variant" }
+              ]
+            }
           ]
         },
         "featureID": {
-          "description": "Where applicable, ID/accession/name of genomic feature related to the `featureClass`. Preferably in CURIE format. If the value is a gene id or name, it points to the gene related to the `featureClass`, e.g. `the 5 prime UTR upstream of TP53`",
-          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
-          "examples": [{ "id": "HGNC:11998", "label": "TP53" }]
+          "allOf": [
+            {
+              "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
+            },
+            {
+              "description": "Where applicable, ID/accession/name of genomic feature related to the `featureClass`. Preferably in CURIE format. If the value is a gene id or name, it points to the gene related to the `featureClass`, e.g. `the 5 prime UTR upstream of TP53`",
+              "examples": [{ "id": "HGNC:11998", "label": "TP53" }]
+            }
+          ]
         }
       },
       "required": ["featureClass"]
@@ -201,22 +213,34 @@
           "examples": ["disease1", "phen2234"]
         },
         "category": {
-          "description": "Ontology term for the type of disease, condition, phenotypic measurement, etc. ",
-          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
-          "examples": [
-            { "id": "MONDO:0000001", "label": "disease or disorder" },
-            { "id": "HP:0000118", "label": "phenotypic abnormality" }
+          "allOf": [
+            {
+              "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
+            },
+            {
+              "description": "Ontology term for the type of disease, condition, phenotypic measurement, etc. ",
+              "examples": [
+                { "id": "MONDO:0000001", "label": "disease or disorder" },
+                { "id": "HP:0000118", "label": "phenotypic abnormality" }
+              ]
+            }
           ]
         },
         "effect": {
-          "description": "Ontology term for the phenotypic or clinical effect. ",
-          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
-          "examples": [
+          "allOf": [
             {
-              "id": "MONDO:0003582",
-              "label": "hereditary breast ovarian cancer syndrome"
+              "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
             },
-            { "id": "HP:0000256", "label": "macrocephaly" }
+            {
+              "description": "Ontology term for the phenotypic or clinical effect. ",
+              "examples": [
+                {
+                  "id": "MONDO:0003582",
+                  "label": "hereditary breast ovarian cancer syndrome"
+                },
+                { "id": "HP:0000256", "label": "macrocephaly" }
+              ]
+            }
           ]
         },
         "clinicalRelevance": {
@@ -232,11 +256,17 @@
           "example": "pathogenic"
         },
         "evidenceType": {
-          "description": "Ontology term for the type of evidence supporting variant-disease association from the Evidence & Conclusion Ontology (ECO). ",
-          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
-          "examples": [
-            { "id": "ECO:0000361", "label": "inferential evidence" },
-            { "id": "ECO:0000006", "label": "experimental evidence" }
+          "allOf": [
+            {
+              "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
+            },
+            {
+              "description": "Ontology term for the type of evidence supporting variant-disease association from the Evidence & Conclusion Ontology (ECO). ",
+              "examples": [
+                { "id": "ECO:0000361", "label": "inferential evidence" },
+                { "id": "ECO:0000006", "label": "experimental evidence" }
+              ]
+            }
           ]
         },
         "annotatedWith": {
@@ -328,25 +358,37 @@
           "example": "SRR10903401"
         },
         "zygosity": {
-          "description": "Ontology term for zygosity in which variant is present in the sample from the Zygosity Ontology (GENO:0000391) , e.g `heterozygous` (GENO:0000135)",
-          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
-          "examples": [
-            { "id": "GENO:0000135", "label": "heterozygous" },
-            { "id": "GENO:0000136", "label": "homozygous" },
-            { "id": "GENO:0000604", "label": "hemizygous X-linked" }
+          "allOf": [
+            {
+              "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
+            },
+            {
+              "description": "Ontology term for zygosity in which variant is present in the sample from the Zygosity Ontology (GENO:0000391) , e.g `heterozygous` (GENO:0000135)",
+              "examples": [
+                { "id": "GENO:0000135", "label": "heterozygous" },
+                { "id": "GENO:0000136", "label": "homozygous" },
+                { "id": "GENO:0000604", "label": "hemizygous X-linked" }
+              ]
+            }
           ]
         },
         "alleleOrigin": {
-          "description": "Ontology value for allele origin of variant in sample from the Variant Origin (SO:0001762). Categories are `somatic variant`, `germline variant`, `maternal variant`, `paternal variant`, `de novo variant`, `pedigree specific variant`, `population specific variant`. Corresponds to Variant Inheritance in FHIR.",
-          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
-          "examples": [
-            { "id": "SO:0001777", "label": "somatic variant" },
-            { "id": "SO:0001778", "label": "germline variant" },
-            { "id": "SO:0001775", "label": "maternal variant" },
-            { "id": "SO:0001776", "label": "paternal variant" },
-            { "id": "SO:0001781", "label": "de novo variant" },
-            { "id": "SO:0001779", "label": "pedigree specific variant" },
-            { "id": "SO:0001780", "label": "population specific variant" }
+          "allOf": [
+            {
+              "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
+            },
+            {
+              "description": "Ontology value for allele origin of variant in sample from the Variant Origin (SO:0001762). Categories are `somatic variant`, `germline variant`, `maternal variant`, `paternal variant`, `de novo variant`, `pedigree specific variant`, `population specific variant`. Corresponds to Variant Inheritance in FHIR.",
+              "examples": [
+                { "id": "SO:0001777", "label": "somatic variant" },
+                { "id": "SO:0001778", "label": "germline variant" },
+                { "id": "SO:0001775", "label": "maternal variant" },
+                { "id": "SO:0001776", "label": "paternal variant" },
+                { "id": "SO:0001781", "label": "de novo variant" },
+                { "id": "SO:0001779", "label": "pedigree specific variant" },
+                { "id": "SO:0001780", "label": "population specific variant" }
+              ]
+            }
           ]
         },
         "clinicalInterpretations": {

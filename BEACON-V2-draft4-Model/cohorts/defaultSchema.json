@@ -11,12 +11,19 @@
       "default": "beacon-defined"
     },
     "cohortDesign": {
-      "description": "Cohort type by its design. A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution. Value from Ontologized MIABIS (OMIABIS) Study design ontology term tree (OBI:0500000).",
-      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
-      "examples": [
-        { "id": "OMIABIS:0001017", "label": "case control study design" },
-        { "id": "OMIABIS:0001019", "label": "longitudinal study design" },
-        { "id": "OMIABIS:0001024", "label": "twin study design" }
+      "allOf": [
+        {
+          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
+        },
+        {
+          "description": "Cohort type by its design. A plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution. Value from Ontologized MIABIS (OMIABIS) Study design ontology term tree (OBI:0500000).",
+          
+          "examples": [
+            { "id": "OMIABIS:0001017", "label": "case control study design" },
+            { "id": "OMIABIS:0001019", "label": "longitudinal study design" },
+            { "id": "OMIABIS:0001024", "label": "twin study design" }
+          ]
+        }
       ]
     },
     "cohortId": {
