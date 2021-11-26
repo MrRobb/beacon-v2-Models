@@ -26,17 +26,11 @@
       "format": "date"
     },
     "librarySource": {
-      "allOf": [
-        {
-          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
-        },
-        {
-          "description": "Ontology value for the source of the sequencing or hybridization library, e.g \"genomic source\", \"transcriptomic source\"",
-          "examples": [
-            { "id": "GENEPIO:0001966", "label": "genomic source" },
-            { "id": "GENEPIO:0001965", "label": "metagenomic source" }
-          ]
-        }
+      "description": "Ontology value for the source of the sequencing or hybridization library, e.g \"genomic source\", \"transcriptomic source\"",
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
+      "examples": [
+        { "id": "GENEPIO:0001966", "label": "genomic source" },
+        { "id": "GENEPIO:0001965", "label": "metagenomic source" }
       ]
     },
     "librarySelection": {
@@ -59,18 +53,12 @@
       "examples": ["Illumina", "Oxford Nanopore", "Affymetrix"]
     },
     "platformModel": {
-      "allOf": [
-        {
-          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
-        },
-        {
-          "description": "Ontology value for experimental platform or methodology used. For sequencing platforms the use of \"OBI:0400103 - DNA sequencer\" is suggested.",
-          "examples": [
-            { "id": "OBI:0002048", "label": "Illumina HiSeq 3000" },
-            { "id": "OBI:0002750", "label": "Oxford Nanopore MinION" },
-            { "id": "EFO:0010938", "label": "large-insert clone DNA microarray" }
-          ]
-        }
+      "description": "Ontology value for experimental platform or methodology used. For sequencing platforms the use of \"OBI:0400103 - DNA sequencer\" is suggested.",
+      "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
+      "examples": [
+        { "id": "OBI:0002048", "label": "Illumina HiSeq 3000" },
+        { "id": "OBI:0002750", "label": "Oxford Nanopore MinION" },
+        { "id": "EFO:0010938", "label": "large-insert clone DNA microarray" }
       ]
     },
     "info": {

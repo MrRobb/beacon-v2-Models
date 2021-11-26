@@ -36,21 +36,14 @@
           "examples": ["Pedigree1001-m1", "Ind0012122"]
         },
         "role": {
-          "allOf": [
-            {
-              "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json"
-            },
-            {
-              "description": "Pedigree role, defined as relationship to proband. Value from Family Member term (NCIT:C41256), e.g. \"proband\" (NCIT:C64435),\"identical twin\" (NCIT:C73429), \"mother\" (NCIT:C25189).",
-              "examples": [
-                { "id": "NCIT:C64435", "label": "Proband" },
-                { "id": "NCIT:C96580", "label": "Biological Mother" },
-                { "id": "NCIT:C96572", "label": "Biological Father" },
-                { "id": "NCIT:C165848", "label": "Identical Twin Brother" }
-              ]
-            }
+          "description": "Pedigree role, defined as relationship to proband. Value from Family Member term (NCIT:C41256), e.g. \"proband\" (NCIT:C64435),\"identical twin\" (NCIT:C73429), \"mother\" (NCIT:C25189).",
+          "$ref": "https://raw.githubusercontent.com/MrRobb/beacon-framework-v2/main/common/ontologyTerm.json",
+          "examples": [
+            { "id": "NCIT:C64435", "label": "Proband" },
+            { "id": "NCIT:C96580", "label": "Biological Mother" },
+            { "id": "NCIT:C96572", "label": "Biological Father" },
+            { "id": "NCIT:C165848", "label": "Identical Twin Brother" }
           ]
-
         },
         "affected": {
           "description": "Is the individual affected by the disease in the pedigree?",
